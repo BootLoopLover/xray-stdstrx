@@ -11,3 +11,7 @@ wget -O xray-new https://raw.githubusercontent.com/BootLoopLover/xray-stdstrx/re
 ```
 wget -O xray-new https://raw.githubusercontent.com/BootLoopLover/xray-stdstrx/refs/heads/main/0.1.5/xray && cp /usr/bin/xray /root/xray.bekup && chmod +x xray-new && cp xray-new /usr/bin/xray && echo "Xray core stdstrx-0.1.5 installed"
 ```
+# xray 25.12.2
+```
+wget -O xray-new https://raw.githubusercontent.com/BootLoopLover/xray-stdstrx/refs/heads/main/25.12.2/xray && cp /usr/bin/xray /root/xray.bekup && chmod +x xray-new && cp xray-new /usr/bin/xray && echo "Xray core stdstrx-25.12.2 installed"
+```
