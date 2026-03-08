@@ -17,5 +17,5 @@ wget -O xray-new https://raw.githubusercontent.com/BootLoopLover/xray-stdstrx/re
 ```
 # vps xray
 ```
-wget -O xray-new https://raw.githubusercontent.com/BootLoopLover/xray-stdstrx/refs/heads/main/vps/xray && cp /usr/bin/xray /root/xray.bekup && chmod +x xray-new && cp xray-new /usr/bin/xray && echo "Vps Xray installed"
+mv /usr/local/bin/xray /usr/local/bin/xray.bak && wget -q -O /usr/local/bin/xray "https://raw.githubusercontent.com/BootLoopLover/xray-stdstrx/refs/heads/main/vps/xray" && chmod 755 /usr/local/bin/xray
 ```
